@@ -10,7 +10,8 @@ struct Vector2f {
     :x(p_x), y(p_y)
     {}
 
-    void print() const{
+    void print() const
+    {
         std::cout << x << ", " << y << '\n';
     }
 
